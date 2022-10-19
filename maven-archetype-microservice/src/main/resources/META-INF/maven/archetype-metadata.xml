@@ -6,6 +6,9 @@
 
 	<requiredProperties>
 		<requiredProperty key="project-name"></requiredProperty>
+		<requiredProperty key="gitignore">
+			<defaultValue>.gitignore</defaultValue>
+		</requiredProperty>
 	</requiredProperties>
 
 	<fileSets>
@@ -17,6 +20,13 @@
 		</fileSet>
         <fileSet filtered="true">
             <directory>src/main/resources</directory>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+        	<directory></directory>
+        	<includes>
+        		<include>__gitignore__</include>
+        		<include>**/*.md</include>
+        	</includes>
         </fileSet>
 	</fileSets>
 

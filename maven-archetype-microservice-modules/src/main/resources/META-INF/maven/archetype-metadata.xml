@@ -6,18 +6,22 @@
 
 	<requiredProperties>
 		<requiredProperty key="project-name"></requiredProperty>
+		<requiredProperty key="gitignore">
+			<defaultValue>.gitignore</defaultValue>
+		</requiredProperty>
 	</requiredProperties>
 
 	<fileSets>
 		<fileSet filtered="true">
 			<directory>src</directory>
 		</fileSet>
-		<fileSet encoding="UTF-8">
-			<directory></directory>
-			<includes>
-				<include>**/*.gitignore</include>
-			</includes>
-		</fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+        	<directory></directory>
+        	<includes>
+        		<include>__gitignore__</include>
+        		<include>**/*.md</include>
+        	</includes>
+        </fileSet>
 	</fileSets>
 
 	<modules>
@@ -33,12 +37,6 @@
 				<fileSet filtered="true">
 					<directory>src/main/resources</directory>
 				</fileSet>
-				<fileSet encoding="UTF-8">
-					<directory></directory>
-					<includes>
-						<include>**/*.gitignore</include>
-					</includes>
-				</fileSet>
 			</fileSets>
 		</module>
 		<module id="${rootArtifactId}"
@@ -52,12 +50,6 @@
 				</fileSet>
 				<fileSet filtered="true">
 					<directory>src/main/resources</directory>
-				</fileSet>
-				<fileSet encoding="UTF-8">
-					<directory></directory>
-					<includes>
-						<include>**/*.gitignore</include>
-					</includes>
 				</fileSet>
 			</fileSets>
 		</module>
