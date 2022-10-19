@@ -4,9 +4,3 @@ Este arquetipo nos permite generar proyectos `maven` con dos módulos adicionale
 <br>
 
 # Descripción del Archetype
-
-<br>
-
-# Deuda Técnica
-
-1. Se debe agrega el archivo `.gitignore` en los proyectos generados.

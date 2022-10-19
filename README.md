@@ -74,3 +74,8 @@ Si has llegado a este punto sin iniciar la configuración, ya sea porque no has 
 
 4. `22 de agosto de 2022`
     * Se agregan nuevos diagramas y documentación al `README`.
+
+<br>
+
+5. `19 de octubre de 2022`
+    * Se implementa el `.gitignore` en los archetypes para que se vean reflejado en los proyectos.
