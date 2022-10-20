@@ -1,4 +1,4 @@
-package ${package}.controller.swagger;
+package ${package}.controller;
 
 import org.springframework.http.ResponseEntity;
 
@@ -11,7 +11,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import ${package}.model.${project-name}Vo;
 
 @Tag(name = "${project-name}")
-public interface ${project-name}CtrlSwagger {
+public interface ${project-name}Controller {
 
 	@Operation(summary = "Post add new ${project-name}")
 	@ApiResponses(value = {
