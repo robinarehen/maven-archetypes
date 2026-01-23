@@ -1,4 +1,4 @@
-package ${package}.api;
+package ${package};
 
 import org.junit.jupiter.api.Test;
 //import org.junit.jupiter.api.extension.ExtendWith;
@@ -8,9 +8,5 @@ import org.junit.jupiter.api.Test;
 //@ExtendWith(SpringExtension.class)
 //@SpringBootTest
 public class ${project-name}ApplicationTest {
-
-	@Test
-	public void contextLoads() {
-	}
 
 }

@@ -1,4 +1,4 @@
-package ${package}.library.controller;
+package ${package}.infrastructure.rest.api;
 
 import org.springframework.http.ResponseEntity;
 
@@ -8,8 +8,11 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
+import ${package}.infrastructure.rest.dto.${project-name}Response;
+import ${package}.infrastructure.rest.dto.${project-name}Request;
+
 @Tag(name = "${project-name}")
-public interface ${project-name}Controller {
+public interface ${project-name}Api {
 
 	@Operation(summary = "Post add new ${project-name}")
 	@ApiResponses(value = {
@@ -19,5 +22,5 @@ public interface ${project-name}Controller {
 			@ApiResponse(responseCode = "403", description = "Forbidden", content = @Content),
 			@ApiResponse(responseCode = "500", description = "Internal server error", content = @Content)
 	})
-	public ResponseEntity<String> exampleMethod(String requestVo);
+	public ResponseEntity<${project-name}Response> exampleMethod(${project-name}Request request);
 }

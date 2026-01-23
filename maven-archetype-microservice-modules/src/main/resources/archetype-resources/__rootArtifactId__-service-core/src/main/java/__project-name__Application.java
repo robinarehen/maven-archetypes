@@ -1,4 +1,4 @@
-package ${package}.api;
+package ${package};
  
 
 import org.springframework.boot.SpringApplication;
