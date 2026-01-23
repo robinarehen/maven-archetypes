@@ -10,7 +10,7 @@
 		<version>${version}</version>
 	</parent>
 
-	<artifactId>${artifactId}-service-api</artifactId>
+	<artifactId>${artifactId}-api</artifactId>
 	<version>${version}</version>
 
 	<description>Demo project for Spring Boot</description>

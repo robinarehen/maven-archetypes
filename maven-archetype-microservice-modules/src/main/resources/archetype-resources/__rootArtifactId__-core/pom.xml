@@ -10,7 +10,7 @@
 		<version>${version}</version>
 	</parent>
 
-	<artifactId>${artifactId}-service-core</artifactId>
+	<artifactId>${artifactId}-core</artifactId>
 	<version>${version}</version>
 
 	<description>Demo project for Spring Boot</description>
@@ -18,7 +18,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>${groupId}</groupId>
-			<artifactId>${artifactId}-service-api</artifactId>
+			<artifactId>${artifactId}-api</artifactId>
 			<version>${version}</version>
 		</dependency>
 	</dependencies>

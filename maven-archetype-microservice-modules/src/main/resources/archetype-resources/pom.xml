@@ -47,8 +47,8 @@
 	</dependencies>
 	
 	  <modules>
-	    <module>${artifactId}-service-core</module>
-	    <module>${artifactId}-service-api</module>
+	    <module>${artifactId}-core</module>
+	    <module>${artifactId}-api</module>
 	  </modules>
 
 </project>
