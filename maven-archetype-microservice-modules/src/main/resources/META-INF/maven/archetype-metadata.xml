@@ -26,7 +26,7 @@
 
 	<modules>
 		<module id="${rootArtifactId}"
-			dir="__rootArtifactId__-service-library">
+			dir="__rootArtifactId__-core">
 			<fileSets>
 				<fileSet filtered="true" packaged="true">
 					<directory>src/main/java</directory>
@@ -40,7 +40,7 @@
 			</fileSets>
 		</module>
 		<module id="${rootArtifactId}"
-			dir="__rootArtifactId__-service-api">
+			dir="__rootArtifactId__-api">
 			<fileSets>
 				<fileSet filtered="true" packaged="true">
 					<directory>src/main/java</directory>
